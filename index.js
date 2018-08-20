@@ -29,7 +29,7 @@ function currentLine(line_arr) {
   for (var i = 0; i < line_arr.length; i++) {
     new_arr.push((i + 1) + '.' + ' ' + line_arr[i] + ',');
   }
-  return new_arr.join(' ').chomp();
+  return new_arr.join(' ');
   
 }
 
