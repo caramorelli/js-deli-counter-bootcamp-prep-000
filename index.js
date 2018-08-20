@@ -11,6 +11,8 @@ function nowServing(line_arr) {
   if (line_arr.length === 0) {
     return 'There is nobody waiting to be served!'
   }
+  // var current_customer = line_arr[0];
+  // line_arr.shift;
   return 'Currently serving ' + line_arr.shift + '.';
   
 }
