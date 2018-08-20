@@ -26,6 +26,8 @@ function currentLine(line_arr) {
   }
   var str = '';
   for (var i = 0; i < line_arr.length; i++) {
+    str += 
+    
   }
   return new_arr.join(' ');
   
