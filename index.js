@@ -12,7 +12,7 @@ function nowServing(line_arr) {
     return 'There is nobody waiting to be served!'
   }
   var current_customer = line_arr[0];
-  
+  line_arr.shift
   'Currently serving ' + current_customer + '.';
   
 }
