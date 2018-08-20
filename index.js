@@ -2,7 +2,7 @@
 
 function takeANumber(line_arr, name) {
   line_arr.push(name);
-  console.log('Welcome, ' + name + '. You are number ' + line_arr.length + '.');
+  console.log('Welcome, ' + name + '. You are number ' + line_arr.length + ' in line.');
 }
 
 // 2. Build a function `nowServing`. This function should accept the current line of people (`katzDeliLine`) and return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
