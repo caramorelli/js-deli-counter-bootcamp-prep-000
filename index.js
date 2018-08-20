@@ -22,7 +22,7 @@ function currentLine(line_arr) {
   if (line_arr.length === 0) {
     return 'The line is currently empty.'
   }
-  new_arr = [];
+  var new_arr = [];
   for (var i = 0; i < line_arr.length; i++) {
     new_arr.push((i + 1) + '.' + ' ' + line_arr[i]);
   }
