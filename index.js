@@ -3,7 +3,7 @@
 function takeANumber(line_arr, name) {
   line_arr.concat(name);
   for (var i = 0; i < line_arr.length; i++) {
-    console.log('Welcome, ' + line_arr[i] + '. You are number ' + (i + 1) + '.')
+    console.log('Welcome, ' + line_arr[i] + '. You are number ' + (i + 1) + '.');
   }
 }
 
