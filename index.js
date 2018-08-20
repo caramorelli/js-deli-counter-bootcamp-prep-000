@@ -13,8 +13,7 @@ function nowServing(line_arr) {
   }
   var current_customer = line_arr[0];
   line_arr.shift;
-  line_arr = line_arr.splice(1, line_arr.length);
-  return 'Currently serving ' + current_customer + '.';// && line_arr;
+  return 'Currently serving ' + current_customer + '.';
   
 }
 
