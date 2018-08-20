@@ -13,7 +13,7 @@ function nowServing(line_arr) {
   }
   var current_customer = line_arr.first;
   line_arr.shift;
-  return 'Currently serving ' + ;
+  return 'Currently serving ' + current_customer;
   
 }
 
