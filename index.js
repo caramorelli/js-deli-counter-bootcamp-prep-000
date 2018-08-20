@@ -26,7 +26,7 @@ function currentLine(line_arr) {
   }
   var str = '';
   for (var i = 0; i < line_arr.length; i++) {
-    str += 
+    str += (i + 1 + '. ' + line_arr[i] + ' ')
     
   }
   return new_arr.join(' ');
